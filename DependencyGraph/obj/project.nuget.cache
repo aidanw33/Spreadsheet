@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "trqM1X+9pTs+yEca6+UGKonTwDA/mMxNN8Ibotzn2WfYO9ROhEsCV1cyOQyC2qzUELYznbYAdfez1yd1PLqQdw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\DependencyGraph\\DependencyGraph.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Newtonsoft.Json with version (>= 13.0.1)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

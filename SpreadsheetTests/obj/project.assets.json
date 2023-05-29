@@ -1,0 +1,213 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DependencyGraph/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/DependencyGraph.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DependencyGraph.dll": {}
+        }
+      },
+      "Formula/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Formula.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Formula.dll": {}
+        }
+      },
+      "Spreadsheet/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DependencyGraph": "1.0.0",
+          "Formula": "1.0.0",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Spreadsheet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Spreadsheet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DependencyGraph/1.0.0": {
+      "type": "project",
+      "path": "../DependencyGraph/DependencyGraph.csproj",
+      "msbuildProject": "../DependencyGraph/DependencyGraph.csproj"
+    },
+    "Formula/1.0.0": {
+      "type": "project",
+      "path": "../Formula/Formula.csproj",
+      "msbuildProject": "../Formula/Formula.csproj"
+    },
+    "Spreadsheet/1.0.0": {
+      "type": "project",
+      "path": "../Spreadsheet/Spreadsheet.csproj",
+      "msbuildProject": "../Spreadsheet/Spreadsheet.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DependencyGraph >= 1.0.0",
+      "Formula >= 1.0.0",
+      "MSTest.TestAdapter >= 2.2.8",
+      "MSTest.TestFramework >= 2.2.8",
+      "Microsoft.NET.Test.Sdk >= 17.1.0",
+      "Newtonsoft.Json >= 13.0.1",
+      "Spreadsheet >= 1.0.0",
+      "coverlet.collector >= 3.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Aidan\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\SpreadsheetTests\\SpreadsheetTests.csproj",
+      "projectName": "SpreadsheetTests",
+      "projectPath": "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\SpreadsheetTests\\SpreadsheetTests.csproj",
+      "packagesPath": "C:\\Users\\Aidan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\SpreadsheetTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Aidan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\DependencyGraph\\DependencyGraph.csproj": {
+              "projectPath": "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\DependencyGraph\\DependencyGraph.csproj"
+            },
+            "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\Formula\\Formula.csproj": {
+              "projectPath": "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\Formula\\Formula.csproj"
+            },
+            "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\Spreadsheet\\Spreadsheet.csproj": {
+              "projectPath": "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\Spreadsheet\\Spreadsheet.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "[2.2.8, )"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "[2.2.8, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.1.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "coverlet.collector": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package MSTest.TestAdapter with version (>= 2.2.8)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 2.2.7 ]",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package MSTest.TestFramework with version (>= 2.2.8)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 2.2.7 ]",
+      "libraryId": "MSTest.TestFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NET.Test.Sdk with version (>= 17.1.0)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 16.11.0 ]",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Newtonsoft.Json with version (>= 13.0.1)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package coverlet.collector with version (>= 3.1.2)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 3.0.3 ]",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

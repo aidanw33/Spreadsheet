@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "/yRawCUonAer98l28nFX/BfDd50SDjqg+DqJoHsUlKGpZPg4FnmfkZxTufkQDjfyesxy0V/HbJRxc6KgcxUtlQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Aidan\\Downloads\\spreadsheet-aidanw33-main\\spreadsheet-aidanw33-main\\Spreadsheet\\Spreadsheet\\Spreadsheet.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Newtonsoft.Json with version (>= 13.0.1)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
